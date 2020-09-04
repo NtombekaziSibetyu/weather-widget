@@ -1,43 +1,50 @@
 .body{
     margin: 0;
     padding: 0;
-    display: flex;
-    background-color: #000000;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTGbi0mPNaz0lS6dQbr-oMFgFm89PyZ8sXx4Q&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: sans-serif;
     align-items: center;
+}
+.header{
+    color: #ffffff;
+    font-weight: lighter;
 }
 .container{
     margin: 0px;
     padding: 1px;
     flex-direction: row;
     display: inline-flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    
+    float: left;
+    align-items: center
+}
+.column{
+    display: table;
+    float: left;
+    height: 50%;
 }
 .card{
-    margin: 10px;
-    border: 10px;
-    padding: 20px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
     color: #ffffffff;
-    background-color: #1e88e5;
+    background-color: #000000;
+    opacity: 1.5;
     box-sizing: border-box;
-    box-shadow: #ffffff;
+    box-shadow: solid #ffffff;
+}
+.iconw{
+    height: 100px;
+    width: 100px;
 }
 .big-temp{
     font: bold;
-    font-style: oblique;
-    font-size: medium;
-    font-weight: bolder;
+    font-style: normal;
+    font-size: large;
 }
 .temp{
     font: normal;
     font-style: normal;
     font-size: small;
-}
-.high-temp{
-    color: darkred;
-}
-.low-temp{
-    color: #1e88e5;
 }

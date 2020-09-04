@@ -1,6 +1,6 @@
 
 const getWeather = () => {
-    
+
     let apiKey = "f9bfbf24c72d330ba631e31245191610" 
 
     let api ="http://api.openweathermap.org/data/2.5/forecast"
@@ -73,7 +73,7 @@ const getWeather = () => {
             des = day1.weather[0].description
             icon = day1.weather[0].icon
             iconUrl = "http://openweathermap.org/img/w/" + icon + ".png"
-
+             
             date2 = day2.dt_txt
             temp2 = Math.floor(day2.main.temp - 273)
             min2 = Math.floor(day2.main.temp_min - 273)
