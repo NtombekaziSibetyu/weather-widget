@@ -1,7 +1,7 @@
 .body{
     margin: 0;
     padding: 0;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTGbi0mPNaz0lS6dQbr-oMFgFm89PyZ8sXx4Q&usqp=CAU);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTEJQnNO74KCAIcBaCeXqM5kO2JCd3o0eYukg&usqp=CAU);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: sans-serif;
@@ -36,7 +36,7 @@
     border-radius: 10px;
     color: #ffffffff;
     background-color:#424242  ;
-    opacity: 0.9;
+    opacity: 0.6;
     box-sizing: border-box;
     box-shadow: solid #ffffff;
 }
